@@ -27,7 +27,9 @@ Finally, the script plots & prints the names of 10 random anomaly songs on a sca
 
 ![Anomaly_songs2](https://user-images.githubusercontent.com/64068083/101482443-bfb57400-397c-11eb-8370-157710c5fbbd.png)
 
+
 Notes and bugs:
 
 1) A random state has been set when calling the clustering class so that the predicted clusters align with what we want to plot. This does not affect the random songs extracted.
-2) If the extracted songs are too similar, their names overlap when they are plotted. This can't be avoided but 
+2) If the songs to be plotted are too similar in energy or danceability, the text overlaps. This can't be avoided but increasing the dpi of the plot helps to increase the distance between the texts.
+3) Another clustering technique called Hierarchical clustering can be performed but has been commented out. In practice, K-means performs better.
