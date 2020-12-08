@@ -1,0 +1,16 @@
+The model has been trained and anomalies have been identified. A random number of samples have been extracted from all 600 predictions.
+
+Here are a couple of anomaly songs that are low on danceability but high on energy:
+
+1 Little Mix: How Ya Doin'? (feat. Missy Elliott)
+2 T.I.: Castle Walls (feat. Christina Aguilera)
+3 Neon Trees: Everybody Talks
+4 Coldplay: A L I E N S
+
+Here are a couple of anomaly songs that are high on danceability but low on energy:
+
+1 Khalid: Talk (feat. Disclosure)
+2 Ansel Elgort: Supernova
+3 The Black Eyed Peas: Meet Me Halfway
+4 Jason Derulo: Talk Dirty (feat. 2 Chainz)
+5 Selena Gomez: Bad Liar
