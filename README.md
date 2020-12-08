@@ -33,3 +33,4 @@ Notes and bugs:
 1) A random state has been set when calling the clustering class so that the predicted clusters align with what we want to plot. This does not affect the random songs extracted.
 2) If the songs to be plotted are too similar in energy or danceability, the text overlaps. This can't be avoided but increasing the dpi of the plot helps to increase the distance between the texts.
 3) Another clustering technique called Hierarchical clustering can be performed but has been commented out. In practice, K-means performs better.
+4) Dataset: https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year
