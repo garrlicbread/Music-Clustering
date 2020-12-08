@@ -1,12 +1,12 @@
-## Music-Clustering
+# Music-Clustering
 
-# A simple clustering project that identifies anomaly songs based on two variables, energy and danceability. 
+A simple clustering project that identifies anomaly songs based on two variables, energy and danceability. 
 
 Energy of a song refers to the factors that contribute towards keeping the listener engaged. Some of these factors are volume, beats, general pitch, harmonic rhythm, lyrical progression etc. The higher these values are, the higher is the energy of the song.
 
 Danceability of a song describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.
 
-This script clusters all the songs in the dataset, detects plots the results in high resolution. 
+This script clusters all the songs in the dataset into four different clusters based on the features discussed above and detects anomaly songs that have high energy & low danceability and vice versa. All the results are plotted in high resolution. 
 
 First, it loads a kaggle dataset containing 13 variables pertaining to the top songs from the year 2010 - 2019 ranked by Billboard and extracts their Energy and Danceability values, both ranging between 0 and 100.
 
@@ -24,7 +24,7 @@ Finally, the script plots & prints the names of 10 random anomaly songs on a sca
 
 The text output is as follows:
 
-<mark>The model has been trained and anomalies have been identified. A random number of samples have been extracted from all 600 predictions.
+*The model has been trained and anomalies have been identified. A random number of samples have been extracted from all 600 predictions.
 
 Here are a couple of anomaly songs that are low on danceability but high on energy:
 
@@ -42,4 +42,4 @@ Here are a couple of anomaly songs that are high on danceability but low on ener
 4) Macklemore & Ryan Lewis: Thrift Shop (feat. Wanz)
 5) Maroon 5: What Lovers Do (feat. SZA)
 
-This program took 23.19 seconds to execute.</mark>
+This program took 23.19 seconds to execute.*
