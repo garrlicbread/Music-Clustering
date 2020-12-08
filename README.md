@@ -7,4 +7,9 @@ Energy of a song refers to the factors that contribute towards keeping the liste
 Danceability of a song describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.
 
 This script clusters all the songs in the dataset and plots the results in high resolution. 
-1) Loads a kaggle dataset containing relevant variables of the top songs from the year 2010 - 2019 ranked by Billboard.
+
+1) It loads a kaggle dataset containing 13 variables of the top songs from the year 2010 - 2019 ranked by Billboard and extracts their Energy and Danceability values. Both range between 0 and 100.
+
+2) After checking for any missing values, it calls the Scikit Learn K-means class and calculates the Within-Cluster-Sum-of-Squares (WCSS) on clusters between 1 and 10. Plotting it helps determine the optimal number of clusters. This process is known as The Elbow Method.
+
+![Screenshot](WCSS.png)
