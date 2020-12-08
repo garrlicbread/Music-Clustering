@@ -22,7 +22,7 @@ We can see that beyond the fourth cluster, the fall in the WCSS isn't significan
 ![K-means clustering](https://user-images.githubusercontent.com/64068083/101481312-f8544e00-397a-11eb-80b9-40e352ac9e0f.png)
 
 
-Finally, the script plots & prints the names of 10 random anomaly songs on a scatterplot. View [output.md](output.txt) to see the printed output.
+Finally, the script plots & prints the names of 10 random anomaly songs on a scatterplot. View [output.md](output.md) to see the printed output.
 
 
 ![Anomaly_songs2](https://user-images.githubusercontent.com/64068083/101482443-bfb57400-397c-11eb-8370-157710c5fbbd.png)
