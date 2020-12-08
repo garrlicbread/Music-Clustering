@@ -6,7 +6,7 @@ Energy of a song refers to the factors that contribute towards keeping the liste
 
 Danceability of a song describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.
 
-This script clusters all the songs in the dataset into four different clusters based on the features discussed above and detects anomaly songs that have high energy & low danceability and vice versa. All the results are plotted in high resolution. 
+This script clusters all the songs in the dataset based on the features discussed above and detects anomaly songs that have high energy & low danceability and vice versa. All the results are plotted in high resolution. 
 
 First, it loads a kaggle dataset containing 13 variables pertaining to the top songs from the year 2010 - 2019 ranked by Billboard and extracts their Energy and Danceability values, both ranging between 0 and 100.
 
