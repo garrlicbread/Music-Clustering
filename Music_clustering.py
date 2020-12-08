@@ -12,7 +12,7 @@ from sklearn.cluster import KMeans
 import scipy.cluster.hierarchy as sch
 from sklearn.cluster import AgglomerativeClustering
 
-df = pd.read_csv("C:/Users/Sukant Sidnhwani/Desktop/Python/Projects/Music Clustering/Spotify.csv", 
+df = pd.read_csv("C://Desktop/Python/Projects/Music Clustering/Spotify.csv", 
                       encoding = "ISO-8859-1")
 
 X = df.iloc[:, [6, 7]].values
@@ -39,7 +39,7 @@ plt.ylabel("WCSS")
 plt.show()
 
 # Training the K-means model on the dataset 
-kmeans = KMeans(n_clusters = 4, random_state = 8)
+kmeans = KMeans(n_clusters = 4, random_state = 8) # So that the colours are aligned with what we have set
 k_pred = kmeans.fit_predict(X)
 
 # Visualizing the clusters
