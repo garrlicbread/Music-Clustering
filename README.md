@@ -11,7 +11,3 @@ This script clusters all the songs in the dataset and plots the results in high 
 1) It loads a kaggle dataset containing 13 variables of the top songs from the year 2010 - 2019 ranked by Billboard and extracts their Energy and Danceability values. Both range between 0 and 100.
 
 2) After checking for any missing values, it calls the Scikit Learn K-means class and calculates the Within-Cluster-Sum-of-Squares (WCSS) on clusters between 1 and 10. Plotting it helps determine the optimal number of clusters. This process is known as The Elbow Method.
-
-![alt text](https://github.com/garrlicbread/Music-Clustering/main/Music%20Clustering/WCSS.png?raw=true)
-
-https://raw.githubusercontent.com/garrlicbread/Music-Clustering/main/Music%20Clustering/WCSS.png
