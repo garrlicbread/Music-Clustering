@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 import scipy.cluster.hierarchy as sch
 from sklearn.cluster import AgglomerativeClustering
 
-df = pd.read_csv("C:/Users/Sukant Sidnhwani/Desktop/Python/Projects/Music Clustering/Spotify.csv", 
+df = pd.read_csv("C://Desktop/Python/Projects/Music Clustering/Spotify.csv", 
                       encoding = "ISO-8859-1")
 
 X = df.iloc[:, [6, 7]].values
