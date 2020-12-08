@@ -16,7 +16,7 @@ After checking for any missing values, it calls the Scikit Learn K-means class a
 ![WCSS](https://user-images.githubusercontent.com/64068083/101480925-5df40a80-397a-11eb-8787-ba5eb1362e42.png)
 
 
-We can see that beyond the fourth cluster, the fall in the WCSS isn't significant. Hence, we plot the k-means predictions on four clusters. While the red and yellow clusters indicate the general songs, the green and cyan colored clusters indicate those unusual songs that are medium energy/high dancevhigh and energy/medium danceability. The white points indicate cluster centers:
+We can see that beyond the fourth cluster, the fall in the WCSS isn't significant. Hence, we plot the k-means predictions on four clusters. While the red and yellow clusters indicate the general songs, the green and cyan colored clusters indicate those unusual songs that are medium energy/high danceability and high energy/medium danceability. The white points indicate cluster centers:
 
 
 ![K-means clustering](https://user-images.githubusercontent.com/64068083/101481312-f8544e00-397a-11eb-80b9-40e352ac9e0f.png)
