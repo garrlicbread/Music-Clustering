@@ -12,4 +12,4 @@ This script clusters all the songs in the dataset and plots the results in high 
 
 2) After checking for any missing values, it calls the Scikit Learn K-means class and calculates the Within-Cluster-Sum-of-Squares (WCSS) on clusters between 1 and 10. Plotting it helps determine the optimal number of clusters. This process is known as The Elbow Method.
 
-![Screenshot](WCSS.png)
+https://raw.githubusercontent.com/garrlicbread/Music-Clustering/main/Music%20Clustering/WCSS.png
